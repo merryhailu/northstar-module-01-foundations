@@ -20,7 +20,7 @@ enrollment_year = np.random.randint(2022, 2027, size=n_skyline_enrollments)
 final_grade = np.random.choice(
     [ "F", "D", "C", "B", "A"],
     size = n_skyline_enrollments,
-    p = [0.03, 0.07, 0.35, 0.35, 0.20])
+    p = [0.10, 0.10, 0.30, 0.30, 0.20])
 
 hours_studied = np.random.normal(loc=30, scale = 3, size=n_skyline_enrollments)
 hours_studied = np.round(hours_studied, 2)
@@ -29,7 +29,7 @@ hours_studied = np.maximum(hours_studied, 0)  # Ensure no negative hours
 completion_status = np.random.choice(
     [ "Completed", "Dropped", "In Progress"],
     size = n_skyline_enrollments,
-    p = [0.90, 0.03, 0.07])
+    p = [0.80, 0.10, 0.10])
 
 
 skyline_enrollments = pd.DataFrame({
