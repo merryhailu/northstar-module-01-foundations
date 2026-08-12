@@ -1,4 +1,4 @@
-customer_id,region,first_visit_year,satisfaction,total_spent_usd,visits_last_year
+﻿customer_id,region,first_visit_year,satisfaction,total_spent_usd,visits_last_year
 CUST-2824,Downtown,2024,5,351.9,9
 CUST-1409,West End,2025,5,226.64,11
 CUST-5506,South Side,2024,5,37.59,5
